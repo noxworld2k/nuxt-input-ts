@@ -2,6 +2,7 @@
   <div class="container">
     <form @submit.prevent="submitForm" class="form-box">
       <TextInput
+        type="text"
         label="Car Name*"
         placeholder="Enter car name"
         @update:valid="setIsNameValid"

@@ -6,6 +6,7 @@ interface Props {
   placeholder: string;
   disabled: boolean;
   icon: string;
+  type: string;
 }
 
 defineProps<Props>();
@@ -38,7 +39,7 @@ const validateInput = (min: number, max: number) => {
     <label for="text-input">{{ label }}</label>
     <input
       id="textInput"
-      type="text"
+      :type="type"
       name="text"
       class="text-input"
       :placeholder="$props.placeholder"
