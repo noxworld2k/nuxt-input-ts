@@ -29,9 +29,6 @@
 </template>
 
 <script setup lang="ts">
-import TextInput from "@/components/TextInput.vue";
-import SelectInput from "@/components/SelectInput.vue";
-import SubmitButton from "@/components/SubmitButton.vue";
 import { options } from "@/data/CarBrands.json";
 import { reactive, ref, watch, watchEffect } from "vue";
 
