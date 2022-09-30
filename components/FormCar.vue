@@ -62,19 +62,7 @@ const submitForm = () => {
 };
 
 watch([isNameValid, isCarBrandSelected], checkInputs);
-watchEffect(() =>
-  console.log(
-    "isNameValid",
-    isNameValid.value,
-    "isCarBrandSelected",
-    isCarBrandSelected.value,
-    "isDisabled",
-    isDisabled.value,
-    "formData",
-    formData.brand,
-    formData.name
-  )
-);
+
 </script>
 
 <style>
