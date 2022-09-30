@@ -31,7 +31,7 @@
 
 <script setup lang="ts">
 import { options } from "@/data/CarBrands.json";
-import { reactive, ref, watch, watchEffect } from "vue";
+import { reactive, ref, watch } from "vue";
 
 const isNameValid = ref(false);
 const isCarBrandSelected = ref(false);
